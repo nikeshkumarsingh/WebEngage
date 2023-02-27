@@ -23,7 +23,7 @@ function aftersubmt(){
          stat= false;
     }
     else if(!reg.test(email.value)){
-        emailErr.innerText="You Entered an Invalid Email Address";
+        emailErr.innerText="You have Entered an Invalid Email Address";
         emailErr.classList.add("visible");
         emailErr.classList.add("error");
         stat=false;
