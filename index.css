@@ -18,3 +18,9 @@
     width:70%;
     margin-left:150px;
 }
+.form_cont{
+    width:50%;
+    background-color:#f0f0f0;
+    padding:20px;
+    border-radius:10px
+}

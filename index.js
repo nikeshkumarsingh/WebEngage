@@ -58,6 +58,6 @@ function aftersubmt(){
         localStorage.setItem("mail",JSON.stringify(email.value))
         localStorage.setItem("mbnum",JSON.stringify(mobNum.value))
         localStorage.setItem("cntryCode",JSON.stringify(cntry.value))
-        
+        window.location.href="thankyou.html"
     }
 }
