@@ -10,7 +10,7 @@ Form.addEventListener("submit",(ev)=>{
 })
 
 function aftersubmt(){
-    console.log("nk")
+   // console.log("nk")
     let stat=true;
     let reg=/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     //reg taken from :-
@@ -45,6 +45,7 @@ function aftersubmt(){
             mbErr.classList.add("error");
             stat = false;
     }
+    // checking if mobile number is greater than or smaller then 10.
     else if(mobNum.value.length<10 || mobNum.value.length>10){
             mbErr.innerText = "Number should be 10 digit";
             mbErr.classList.add("visible");
@@ -55,6 +56,7 @@ function aftersubmt(){
         mbErr.classList.remove("visible");
     }
     if(stat){
+        // storeing the data in localstorage.
         localStorage.setItem("mail",JSON.stringify(email.value))
         localStorage.setItem("mbnum",JSON.stringify(mobNum.value))
         localStorage.setItem("cntryCode",JSON.stringify(cntry.value))
