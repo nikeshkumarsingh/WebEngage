@@ -10,3 +10,11 @@
     position:relative;
     left:2.5rem;
 }
+.container_image1 img{
+    height:auto;
+    width:100%;
+}
+.container_image2 img{
+    width:70%;
+    margin-left:150px;
+}
