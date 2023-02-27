@@ -1,0 +1,12 @@
+.container_main{
+    display:flex;
+    height:500px;
+    width:100%;
+    align-items:center;
+    justify-content:space-evenly
+}
+.container_image{
+    width:35%;
+    position:relative;
+    left:2.5rem;
+}
